@@ -10,7 +10,21 @@ A Python script that connects to the Brickset API, fetches LEGO set dimensions a
 - **Statistical Reports**: Generates comprehensive text reports with statistics
 - **Error Handling**: Robust error handling for API calls and data processing
 
-## Setup
+## Quick Start
+
+For the fastest way to get started, use the interactive quick start script:
+
+```bash
+python quick_start.py
+```
+
+This script provides an interactive menu to:
+- Run a demo with sample data
+- Set up your API key
+- Run analysis with real Brickset data
+- Run tests to verify functionality
+
+## Manual Setup
 
 1. **Get API Key**: Register at [Brickset Web Services](https://brickset.com/tools/webservices/v3) to get your API key
 
@@ -26,6 +40,21 @@ A Python script that connects to the Brickset API, fetches LEGO set dimensions a
    cp .env.example .env
    # Edit .env with your API key
    ```
+
+## Available Scripts
+
+- **`brickset_analyzer.py`**: Main analysis script for real Brickset data
+- **`demo_analyzer.py`**: Demo script with synthetic data (no API key needed)
+- **`quick_start.py`**: Interactive menu for easy setup and usage
+- **`test_analyzer.py`**: Test script to verify functionality
+
+## Demo Mode
+
+Try the analyzer without an API key using synthetic data:
+
+```bash
+python demo_analyzer.py
+```
 
 ## Usage
 
